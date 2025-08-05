@@ -1,5 +1,91 @@
+# Medical Chatbot 🤖💊
+
+A powerful AI-powered medical chatbot application built with Streamlit and LangChain, designed to answer medical questions using uploaded documents and advanced language models.
 
 ---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## Project Overview
+
+The Medical Chatbot leverages state-of-the-art language models like Groq LLaMA 4 and HuggingFace Falcon 7B to answer users' medical queries. It supports uploading medical documents (PDF, TXT, DOCX), uses vector-based retrieval for relevant context, and falls back to Wikipedia when needed. The chatbot includes intent classification to ensure medical relevance and optional text-to-speech for accessibility.
+
+---
+
+## Features
+
+- Upload and process medical documents (PDF, TXT, DOCX) for context-aware answers
+- Vector store creation and updating using FAISS and embeddings
+- Zero-shot intent classification for medical relevance
+- Support for Groq LLaMA 4 and HuggingFace Falcon 7B language models
+- Intelligent fallback to Wikipedia summary for unanswered questions
+- Text-to-Speech functionality for answers
+- Clean, interactive Streamlit web interface with chat history and source document previews
+
+---
+
+## Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/yourusername/medical-chatbot.git
+    cd medical-chatbot
+    ```
+
+2.  **Create a Python virtual environment:**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Set up environment variables:**
+    Create a `.env` file in the root directory and add your Groq API key:
+    ```ini
+    GROQ_API_KEY=your_groq_api_key_here
+    ```
+
+---
+
+## Usage
+
+1.  **Run the Streamlit app:**
+    ```bash
+    streamlit run medibot.py
+    ```
+
+2.  Open your browser to the URL provided (usually `http://localhost:8501`).
+3.  Use the sidebar to upload medical documents and choose your language model.
+4.  Ask your medical questions in the chat input area.
+
+---
+
+## Project Structure
+medical-chatbot/
+│
+├── connect_memory_with_llm.py        # Connects vectorstore with LLM and QA chain
+├── create_memory_for_llm.py          # Handles embeddings, document processing, intent classification
+├── medibot.py                       # Main Streamlit app interface and workflow
+├── requirements.txt                 # Python dependencies
+├── .env                            # Environment variables (not committed)
+├── vectorstore/                    # FAISS vectorstore data folder (generated)
+└── README.md 
 
 ## Configuration
 
