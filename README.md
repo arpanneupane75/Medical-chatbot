@@ -1,5 +1,4 @@
-```
-# Medical Chatbot 🤖💊
+```# Medical Chatbot 🤖💊
 
 A powerful AI-powered medical chatbot application built with Streamlit and LangChain, designed to answer medical questions using uploaded documents and advanced language models.
 
@@ -75,7 +74,9 @@ Copy
 Edit
 streamlit run medibot.py
 Open your browser to the URL provided (usually http://localhost:8501).
+
 Use the sidebar to upload medical documents and choose your language model.
+
 Ask your medical questions in the chat input area.
 
 Project Structure
@@ -125,31 +126,4 @@ Phone: +977-9869540374
 GitHub: github.com/arpanneupane75
 LinkedIn: linkedin.com/in/arpan-neupane-232a861b2
 
-Thank you for using Medical Chatbot! 🚀
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- ```
+Thank you for using Medical Chatbot! 🚀```
