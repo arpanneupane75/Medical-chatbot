@@ -119,16 +119,38 @@ Please ensure code is well-documented and tests are added for new features.
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
----
+Contact
+Arpan Neupane
+Email: arpanneupane75@gmail.com
+Phone: +977-9869540374
+GitHub: github.com/arpanneupane75
+LinkedIn: linkedin.com/in/arpan-neupane-232a861b2
 
-## Contact
+Thank you for using Medical Chatbot! 🚀
 
-**Arpan Neupane**
--   **Email**: arpanneupane75@gmail.com
--   **Phone**: +977-9869540374
--   **GitHub**: [github.com/arpanneupane75](https://github.com/arpanneupane75)
--   **LinkedIn**: [linkedin.com/in/arpan-neupane-232a861b2](https://linkedin.com/in/arpan-neupane-232a861b2)
 
----
 
-## Thank you for using Medical Chatbot! 🚀
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ```
