@@ -77,6 +77,7 @@ The Medical Chatbot leverages state-of-the-art language models like Groq LLaMA 4
 ---
 
 ## Project Structure
+```bash
 medical-chatbot/
 │
 ├── connect_memory_with_llm.py # Connects vectorstore with LLM and QA chain
@@ -86,6 +87,7 @@ medical-chatbot/
 ├── .env # Environment variables (not committed)
 ├── vectorstore/ # FAISS vectorstore data folder (generated)
 └── README.md # Project documentation
+```
 
 ## Configuration
 
