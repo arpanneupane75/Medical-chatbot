@@ -1,39 +1,3 @@
-# Medical Chatbot 🤖💊
-
-A powerful AI-powered medical chatbot application built with Streamlit and LangChain, designed to answer medical questions using uploaded documents and advanced language models.
-
----
-
-## Table of Contents
-
-- [Project Overview](#project-overview)  
-- [Features](#features)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Project Structure](#project-structure)  
-- [Configuration](#configuration)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)  
-
----
-
-## Project Overview
-
-The Medical Chatbot leverages state-of-the-art language models like Groq LLaMA 4 and HuggingFace Falcon 7B to answer users' medical queries. It supports uploading medical documents (PDF, TXT, DOCX), uses vector-based retrieval for relevant context, and falls back to Wikipedia when needed. The chatbot includes intent classification to ensure medical relevance and optional text-to-speech for accessibility.
-
----
-
-## Features
-
-- Upload and process medical documents (PDF, TXT, DOCX) for context-aware answers  
-- Vector store creation and updating using FAISS and embeddings  
-- Zero-shot intent classification for medical relevance  
-- Support for Groq LLaMA 4 and HuggingFace Falcon 7B language models  
-- Intelligent fallback to Wikipedia summary for unanswered questions  
-- Text-to-Speech functionality for answers  
-- Clean, interactive Streamlit web interface with chat history and source document previews  
-
 
 ## Installation
 
