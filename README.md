@@ -79,13 +79,13 @@ The Medical Chatbot leverages state-of-the-art language models like Groq LLaMA 4
 ## Project Structure
 medical-chatbot/
 │
-├── connect_memory_with_llm.py        # Connects vectorstore with LLM and QA chain
-├── create_memory_for_llm.py          # Handles embeddings, document processing, intent classification
-├── medibot.py                       # Main Streamlit app interface and workflow
-├── requirements.txt                 # Python dependencies
-├── .env                            # Environment variables (not committed)
-├── vectorstore/                    # FAISS vectorstore data folder (generated)
-└── README.md 
+├── connect_memory_with_llm.py # Connects vectorstore with LLM and QA chain
+├── create_memory_for_llm.py # Handles embeddings, document processing, intent classification
+├── medibot.py # Main Streamlit app interface and workflow
+├── requirements.txt # Python dependencies
+├── .env # Environment variables (not committed)
+├── vectorstore/ # FAISS vectorstore data folder (generated)
+└── README.md # Project documentation
 
 ## Configuration
 
