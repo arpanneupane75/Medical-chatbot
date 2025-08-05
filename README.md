@@ -1,4 +1,4 @@
-```# Medical Chatbot 🤖💊
+# Medical Chatbot 🤖💊
 
 A powerful AI-powered medical chatbot application built with Streamlit and LangChain, designed to answer medical questions using uploaded documents and advanced language models.
 
@@ -126,4 +126,4 @@ Phone: +977-9869540374
 GitHub: github.com/arpanneupane75
 LinkedIn: linkedin.com/in/arpan-neupane-232a861b2
 
-Thank you for using Medical Chatbot! 🚀```
+Thank you for using Medical Chatbot! 🚀
