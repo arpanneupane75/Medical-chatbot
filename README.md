@@ -119,7 +119,7 @@ Please ensure code is well-documented and tests are added for new features.
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
 
-Contact
+## Contact
 Arpan Neupane
 Email: arpanneupane75@gmail.com
 Phone: +977-9869540374
