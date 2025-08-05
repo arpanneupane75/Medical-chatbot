@@ -1,6 +1,14 @@
 # Medical Chatbot 🤖💊
 
 A powerful AI-powered medical chatbot application built with Streamlit and LangChain, designed to answer medical questions using uploaded documents and advanced language models.
+## 📸 Demo
+
+![Demo Screenshot](screenshots/medibot_demo.png)
+
+
+> [![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+---
 
 ---
 
@@ -40,7 +48,7 @@ The Medical Chatbot leverages state-of-the-art language models like Groq LLaMA 4
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/medical-chatbot.git
+    git clone https://github.com/arpanneupane75/Medical-chatbot.git
     cd medical-chatbot
     ```
 
