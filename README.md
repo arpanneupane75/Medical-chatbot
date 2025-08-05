@@ -3,12 +3,7 @@
 A powerful AI-powered medical chatbot application built with Streamlit and LangChain, designed to answer medical questions using uploaded documents and advanced language models.
 ## 📸 Demo
 
-![Demo Screenshot](screenshots/medibot_demo.png)
-
-
-> [![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
----
+![Demo Screenshot](Medibot.png)
 
 ---
 
