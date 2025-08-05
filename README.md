@@ -34,11 +34,11 @@ The Medical Chatbot leverages state-of-the-art language models like Groq LLaMA 4
 - Text-to-Speech functionality for answers  
 - Clean, interactive Streamlit web interface with chat history and source document previews  
 
----
+
 
 ## Installation
 
-###1. Clone the repository:
+##1. Clone the repository:
 
 
 git clone https://github.com/yourusername/medical-chatbot.git
