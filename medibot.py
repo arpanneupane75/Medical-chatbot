@@ -610,7 +610,13 @@ load_dotenv()
 MIN_INTENT_CONFIDENCE = 0.4
 
 # Initialize TTS engine
-tts_engine = pyttsx3.init()
+
+try:
+    import pyttsx3
+    tts_engine = pyttsx3.init()
+except ImportError:
+    tts_engine = None
+
 
 # Streamlit page config
 st.set_page_config(page_title="MediBot 🤖", page_icon="💊", layout="wide")
